@@ -1,0 +1,39 @@
+{
+	"Employee":[
+	{
+		"Employee_Id":"1",
+		"First_Name":"Shital",
+		"Last_Name":"Patil",
+		"DOJ":"01022018",
+		"status":"A"
+	},
+   {
+		"Employee_Id":"2",
+		"First_Name":"Swapnil",
+		"Last_Name":"Palande",
+		"DOJ":"05022018",
+	    "status":"A"
+	},
+	{
+		"Employee_Id":"3",
+		"First_Name":"Rohan",
+		"Last_Name":"Bhosle",
+		"DOJ":"10052018",
+		"status":"N"
+	},
+	{
+		"Employee_Id":"4",
+		"First_Name":"Rohit",
+		"Last_Name":"Angane",
+		"DOJ":"15092018",
+		"status":"A"
+	},
+	{
+		"Employee_Id":"5",
+		"First_Name":"Hithun",
+		"Last_Name":"Harindran",
+		"DOJ":"25012019",
+		"status":"N"
+	}
+]
+}

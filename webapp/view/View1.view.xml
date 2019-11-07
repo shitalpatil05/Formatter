@@ -1,0 +1,47 @@
+<mvc:View controllerName="Demo.Table.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>Employee Details}">
+					<content>
+					
+					<Table id="xyz" items="{/Employee}">
+	<columns>
+		<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+			<Text text="Employee Id"></Text>
+		</Column>
+			<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+			<Text text="First Name"></Text>
+		</Column>
+			<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+			<Text text="Last Name"></Text>
+		</Column>
+			<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+			<Text text="DOJ"></Text>
+		</Column>
+		
+			<Column hAlign="Center" minScreenWidth="Tablet" demandPopin="true" width="15%">
+			<Text text="Status"></Text>
+		</Column>
+		</columns>
+	<items>
+		<ColumnListItem vAlign="Middle">
+			<cells>
+				<Text wrapping="true" text="{Employee_Id}"></Text>
+					<Text wrapping="true" text="{First_Name}"></Text>
+						<Text wrapping="true" text="{Last_Name}"></Text>
+							<Text wrapping="true" text="{path : 'DOJ',formatter : '.f1.fnOnFormatDate'}"></Text>
+		                      <Text wrapping="true" text="{path : 'status',formatter : '.f1.fnReturnStatus'}"></Text>
+			</cells>
+			
+		</ColumnListItem>
+	</items>
+</Table>
+   
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
